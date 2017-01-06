@@ -1,14 +1,12 @@
 <?php
 
+use SampleConstruct\Artii;
+
+
 return function($site, $pages, $page) {
 
-	$response = Remote::get('http://artii.herokuapp.com/make', [
-		'data' => [
-			'text' => $page->text()->value()],
-	]);
-
 	return [
-		'asciiText' => $response->content(),
+		'asciiText' => structure(Artii::toAsciiText($page->text()->value())),
 	];
 
 };

@@ -3,6 +3,7 @@ pages:
   template:
     - ascii-art
     - ascii-art-server
+    - ascii-art-client
 fields:
   title:
     label: Title

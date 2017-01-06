@@ -1,1 +1,1 @@
-<pre><?php echo $page->text(); ?></pre>
+<?php echo $page->text()->monospace(); ?>
