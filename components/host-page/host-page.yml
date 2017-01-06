@@ -1,0 +1,12 @@
+title: Component Host Page
+pages:
+  template:
+    - ascii-art
+    - ascii-art-server
+fields:
+  title:
+    label: Title
+    type:  text
+  text:
+    label: Text
+    type:  textarea

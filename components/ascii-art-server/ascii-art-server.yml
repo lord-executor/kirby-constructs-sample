@@ -1,0 +1,6 @@
+title: ASCII Text Art (server side)
+pages: false
+fields:
+  text:
+    label: Text
+    type:  textarea

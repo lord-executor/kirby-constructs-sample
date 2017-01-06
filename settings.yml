@@ -1,0 +1,4 @@
+name: sample-construct
+rootNamespace: SampleConstruct
+pageModel: Constructs\ComponentPage
+nesting: children

@@ -1,0 +1,6 @@
+title: ASCII Art
+pages: false
+fields:
+  text:
+    label: Art
+    type:  textarea
