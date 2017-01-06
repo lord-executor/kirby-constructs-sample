@@ -1,6 +1,7 @@
 title: ASCII Text Art (server side)
 pages: false
 fields:
+  title: componenttitle
   text:
     label: Text
     type:  textarea

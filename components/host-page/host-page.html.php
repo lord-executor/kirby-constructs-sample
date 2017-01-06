@@ -14,7 +14,7 @@
 			<?= $page->text()->kirbytext() ?>
 		</div>
 
-		<div>
+		<div class="wrap">
 			<?php
 				foreach ($page->components() as $component) {
 					echo $component->render();

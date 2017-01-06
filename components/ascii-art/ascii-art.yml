@@ -1,6 +1,7 @@
 title: ASCII Art
 pages: false
 fields:
+  title: componenttitle
   text:
     label: Art
     type:  textarea
