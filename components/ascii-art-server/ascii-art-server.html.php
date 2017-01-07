@@ -1,2 +1,2 @@
 <?php echo $asciiText->monospace(); ?>
-<em>powered by <a href="http://artii.herokuapp.com/">ARTII</a></em>
+<em><?php echo l::get('sample-construct.powered-by-artii'); ?></em>

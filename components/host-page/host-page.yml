@@ -1,9 +1,10 @@
 title: Component Host Page
 pages:
-  template:
-    - ascii-art
-    - ascii-art-server
-    - ascii-art-client
+  build:
+    -
+      title: Components
+      uid: components
+      template: component-container
 fields:
   title:
     label: Title

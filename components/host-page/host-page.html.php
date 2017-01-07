@@ -16,7 +16,7 @@
 
 		<div class="wrap">
 			<?php
-				foreach ($page->components() as $component) {
+				foreach ($page->components('components') as $component) {
 					echo $component->render();
 				}
 			?>

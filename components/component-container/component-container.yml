@@ -1,0 +1,10 @@
+title: Component Container
+pages:
+  template:
+    - ascii-art
+    - ascii-art-server
+    - ascii-art-client
+fields:
+  title:
+    label: Title
+    type:  text

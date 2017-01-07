@@ -1,4 +1,7 @@
 name: sample-construct
 rootNamespace: SampleConstruct
-pageModel: Constructs\ComponentPage
 nesting: children
+pageModel:
+  host-page: Page
+defaultTemplate: default-template.html.php
+defaultController: default-controller.php
